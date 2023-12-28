@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class PetitionModel(models.Model):
     full_name = models.CharField(max_length=200)
     phone = models.CharField(max_length=13)
