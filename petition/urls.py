@@ -4,5 +4,5 @@ from .views import CreateView, UpdateView
 
 urlpatterns = [
     path('create', CreateView.as_view()),
-    path('update', UpdateView.as_view())
+    path('update/<int:pk>', UpdateView.as_view())
 ]
