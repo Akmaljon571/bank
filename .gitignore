@@ -66,3 +66,6 @@ db.json
 !.gitignore
 
 .idea
+
+
+db.sqlite3

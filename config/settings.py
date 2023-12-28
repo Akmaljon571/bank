@@ -28,6 +28,7 @@ INSTALLED_APPS = [
 
     # Package
     'rest_framework',
+    'drf_yasg',
 
     # Local
     'credit.apps.CreditConfig',
