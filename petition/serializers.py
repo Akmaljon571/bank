@@ -7,3 +7,9 @@ class PetitionsSerializers(ModelSerializer):
     class Meta:
         model = PetitionModel
         fields = "__all__"
+        
+
+class PetitionsImageSerializers(ModelSerializer):
+    class Meta:
+        model = PetitionModel
+        fields = ('image',)
